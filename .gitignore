@@ -1,0 +1,11 @@
+data/raw/telco_churn.csv
+data/validation_report.csv
+
+data/raw/hf_bank_customer_support.csv
+data/validation_report.csv
+
+data/prepared/customer_data_cleaned.csv
+
+data/processed/customer_features.db
+models/model.pkl
+
