@@ -4,6 +4,7 @@ import os
 import joblib
 import mlflow
 import argparse
+import logging
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import OneHotEncoder
@@ -18,6 +19,7 @@ from sklearn.metrics import (
     auc,
     confusion_matrix
 )
+from datetime import datetime
 
 def train_and_log_models(db_path):
     """
@@ -96,6 +98,18 @@ def train_and_log_models(db_path):
     print("--- Model Training and Evaluation Complete ---")
 
 if __name__ == "__main__":
+
+    # Generate filename with current datetime
+    log_filename = f"logs/model_training_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+    
+    # Configure logging
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        filename=log_filename,  # write logs to file
+        filemode='a'             # append mode
+    )
+    
     parser = argparse.ArgumentParser(description="Train and log ML models.")
     parser.add_argument('--db-path', type=str, required=True, help='Path to the SQLite database.')
     args = parser.parse_args()

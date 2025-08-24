@@ -64,4 +64,4 @@ inferred_dtypes - MonthlyCharges,float64
 inferred_dtypes - TotalCharges,object
 inferred_dtypes - Churn,object
 value_examples - inconsistent_total_charges,"[' ', ' ', ' ', ' ', ' ']"
-value_examples - consistent_total_charges,"['249.55', '20.5', '3974.15', '399.25', '71']"
+value_examples - consistent_total_charges,"['4310.35', '874.2', '299.7', '2338.35', '1982.1']"

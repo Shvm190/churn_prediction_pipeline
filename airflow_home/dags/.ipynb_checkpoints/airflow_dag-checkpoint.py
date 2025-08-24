@@ -2,6 +2,9 @@
 from airflow.decorators import dag, task
 from datetime import datetime, timedelta
 import subprocess
+import os
+from pathlib import Path
+
 
 default_args = {
     "owner": "shivam",
@@ -23,6 +26,7 @@ def churn_pipeline():
     
     @task
     def ingestion():
+        print(os.getcwd())
         run_cmd(["python", "scripts/ingest.py"])
         run_cmd(["dvc", "add", "data/raw/telco_churn.csv", "data/raw/hf_bank_customer_support.csv"])
         run_cmd(["git", "add", "*.dvc"])

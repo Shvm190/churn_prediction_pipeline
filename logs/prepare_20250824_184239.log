@@ -1,0 +1,8 @@
+2025-08-24 18:42:39,678 - INFO - Starting data preparation...
+2025-08-24 18:42:39,691 - INFO - Handled missing values in 'TotalCharges'.
+2025-08-24 18:42:39,825 - INFO - Generated churn distribution plot.
+2025-08-24 18:42:39,867 - INFO - Generated monthly charges vs churn plot.
+2025-08-24 18:42:39,909 - INFO - Generated churn vs. contract plot.
+2025-08-24 18:42:39,956 - INFO - Generated churn vs. internet service plot.
+2025-08-24 18:42:40,010 - INFO - Generated tenure vs. churn plot.
+2025-08-24 18:42:40,030 - INFO - Cleaned dataset saved to /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/scripts/../data/prepared/customer_data_cleaned.csv.

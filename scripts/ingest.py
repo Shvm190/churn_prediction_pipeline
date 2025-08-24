@@ -10,9 +10,6 @@ import kagglehub
 # We will use the Hugging Face `datasets` library to load the data
 from datasets import load_dataset
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 def ingest_data():
     """
     Ingests data from two different sources and saves them in the raw data directory.
@@ -50,6 +47,17 @@ def ingest_data():
         logging.error(f"Data ingestion failed with error: {e}")
     
 if __name__ == '__main__':
+    # Generate filename with current datetime
+    log_filename = f"logs/ingest_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+    
+    # Configure logging
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        filename=log_filename,  # write logs to file
+        filemode='a'             # append mode
+    )
+    
     ingest_data()
 # curl -X GET \
 #      "https://datasets-server.huggingface.co/splits?dataset=aai510-group1%2Ftelco-customer-churn"

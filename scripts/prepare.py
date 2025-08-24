@@ -7,9 +7,7 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 import logging
-
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+from datetime import datetime
 
 def prepare_data():
     """
@@ -87,4 +85,17 @@ def prepare_data():
         logging.error(f"Data preparation failed with error: {e}")
 
 if __name__ == '__main__':
+
+    # Generate filename with current datetime
+    log_filename = f"logs/prepare_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+    
+    # Configure logging
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        filename=log_filename,  # write logs to file
+        filemode='a'             # append mode
+    )
+    
+
     prepare_data()

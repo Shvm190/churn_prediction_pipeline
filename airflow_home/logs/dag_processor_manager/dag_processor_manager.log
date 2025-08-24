@@ -1123,3 +1123,705 @@ File Path                                                                       
 /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.85s           2025-08-24T17:05:47
 ================================================================================
 [2025-08-24T18:06:22.428+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-08-24T18:08:31.553+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-08-24T18:08:31.553+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-08-24T18:08:31.553+0100] {manager.py:472} INFO - Checking for new files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags every 300 seconds
+[2025-08-24T18:08:31.553+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:08:31.555+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:08:32.310+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0           1  0.68s           2025-08-24T17:08:32
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0           0
+================================================================================
+[2025-08-24T18:09:03.236+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0           1  0.89s           2025-08-24T17:09:03
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.71s           2025-08-24T17:08:34
+================================================================================
+[2025-08-24T18:09:34.045+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.74s           2025-08-24T17:09:15
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.69s           2025-08-24T17:09:16
+================================================================================
+[2025-08-24T18:10:04.474+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  1.00s           2025-08-24T17:09:47
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.68s           2025-08-24T17:09:48
+================================================================================
+[2025-08-24T18:10:36.065+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.76s           2025-08-24T17:10:18
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.71s           2025-08-24T17:10:22
+================================================================================
+[2025-08-24T18:11:06.981+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.70s           2025-08-24T17:10:49
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.68s           2025-08-24T17:10:54
+================================================================================
+[2025-08-24T18:11:37.112+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  1.08s           2025-08-24T17:11:21
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.75s           2025-08-24T17:11:25
+================================================================================
+[2025-08-24T18:12:07.252+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.90s           2025-08-24T17:11:52
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.75s           2025-08-24T17:11:56
+================================================================================
+[2025-08-24T18:12:37.383+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.93s           2025-08-24T17:12:23
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.73s           2025-08-24T17:12:28
+================================================================================
+[2025-08-24T18:13:08.119+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.71s           2025-08-24T17:13:04
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.70s           2025-08-24T17:13:02
+================================================================================
+[2025-08-24T18:13:32.258+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:13:32.265+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:13:41.476+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  1.01s           2025-08-24T17:13:34
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.78s           2025-08-24T17:13:35
+================================================================================
+[2025-08-24T18:14:13.608+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.71s           2025-08-24T17:14:09
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.70s           2025-08-24T17:14:05
+================================================================================
+[2025-08-24T18:14:43.899+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.69s           2025-08-24T17:14:36
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.69s           2025-08-24T17:14:41
+================================================================================
+[2025-08-24T18:15:14.772+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.79s           2025-08-24T17:15:07
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.68s           2025-08-24T17:15:12
+================================================================================
+[2025-08-24T18:15:44.807+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  1.01s           2025-08-24T17:15:38
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.76s           2025-08-24T17:15:43
+================================================================================
+[2025-08-24T18:16:15.773+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.88s           2025-08-24T17:16:09
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.68s           2025-08-24T17:16:14
+================================================================================
+[2025-08-24T18:16:45.801+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.98s           2025-08-24T17:16:40
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.68s           2025-08-24T17:16:45
+================================================================================
+[2025-08-24T18:17:16.783+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.94s           2025-08-24T17:17:11
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.81s           2025-08-24T17:17:16
+================================================================================
+[2025-08-24T18:17:47.768+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  1.01s           2025-08-24T17:17:42
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.70s           2025-08-24T17:17:47
+================================================================================
+[2025-08-24T18:18:18.779+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.95s           2025-08-24T17:18:13
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.67s           2025-08-24T17:18:18
+================================================================================
+[2025-08-24T18:18:32.771+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:18:32.779+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:18:49.902+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.95s           2025-08-24T17:18:44
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.75s           2025-08-24T17:18:49
+================================================================================
+[2025-08-24T18:19:20.806+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.90s           2025-08-24T17:19:15
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.68s           2025-08-24T17:19:20
+================================================================================
+[2025-08-24T18:19:51.710+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.76s           2025-08-24T17:19:46
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.74s           2025-08-24T17:19:51
+================================================================================
+[2025-08-24T18:20:22.469+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.74s           2025-08-24T17:20:22
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.70s           2025-08-24T17:20:17
+================================================================================
+[2025-08-24T18:20:53.500+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.91s           2025-08-24T17:20:48
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.73s           2025-08-24T17:20:53
+================================================================================
+[2025-08-24T18:21:24.319+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.80s           2025-08-24T17:21:19
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.69s           2025-08-24T17:21:24
+================================================================================
+[2025-08-24T18:21:55.461+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.95s           2025-08-24T17:21:50
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.79s           2025-08-24T17:21:55
+================================================================================
+[2025-08-24T18:22:26.346+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.91s           2025-08-24T17:22:21
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.68s           2025-08-24T17:22:26
+================================================================================
+[2025-08-24T18:22:57.150+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.74s           2025-08-24T17:22:52
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.67s           2025-08-24T17:22:57
+================================================================================
+[2025-08-24T18:23:28.083+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.77s           2025-08-24T17:23:23
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.75s           2025-08-24T17:23:28
+================================================================================
+[2025-08-24T18:23:32.989+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:23:32.997+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:23:59.133+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.98s           2025-08-24T17:23:54
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.72s           2025-08-24T17:23:59
+================================================================================
+[2025-08-24T18:24:29.963+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.79s           2025-08-24T17:24:25
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.67s           2025-08-24T17:24:29
+================================================================================
+[2025-08-24T18:25:00.997+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.91s           2025-08-24T17:24:56
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.72s           2025-08-24T17:25:00
+================================================================================
+[2025-08-24T18:25:31.782+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.76s           2025-08-24T17:25:26
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.68s           2025-08-24T17:25:31
+================================================================================
+[2025-08-24T18:26:02.692+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.84s           2025-08-24T17:25:57
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.67s           2025-08-24T17:26:02
+================================================================================
+[2025-08-24T18:26:33.856+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.91s           2025-08-24T17:26:28
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.73s           2025-08-24T17:26:33
+================================================================================
+[2025-08-24T18:27:05.202+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  1.44s           2025-08-24T17:27:00
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.67s           2025-08-24T17:27:05
+================================================================================
+[2025-08-24T18:27:35.942+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.97s           2025-08-24T17:27:31
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.69s           2025-08-24T17:27:35
+================================================================================
+[2025-08-24T18:28:07.312+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.83s           2025-08-24T17:28:02
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.82s           2025-08-24T17:28:07
+================================================================================
+[2025-08-24T18:28:34.272+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:28:34.280+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:28:38.119+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.81s           2025-08-24T17:28:33
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.69s           2025-08-24T17:28:38
+================================================================================
+[2025-08-24T18:29:09.113+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.95s           2025-08-24T17:29:04
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.67s           2025-08-24T17:29:09
+================================================================================
+[2025-08-24T18:29:40.259+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.92s           2025-08-24T17:29:35
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.85s           2025-08-24T17:29:40
+================================================================================
+[2025-08-24T18:30:11.111+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.89s           2025-08-24T17:30:06
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.72s           2025-08-24T17:30:11
+================================================================================
+[2025-08-24T18:30:42.268+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  1.01s           2025-08-24T17:30:37
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.81s           2025-08-24T17:30:42
+================================================================================
+[2025-08-24T18:31:09.066+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:31:13.881+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:31:13.882+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  1.68s           2025-08-24T17:31:09
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.64s           2025-08-24T17:31:13
+================================================================================
+[2025-08-24T18:31:40.167+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:31:45.057+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:31:45.058+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  1.04s           2025-08-24T17:31:40
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.73s           2025-08-24T17:31:45
+================================================================================
+[2025-08-24T18:32:11.087+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:32:15.896+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:32:15.897+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.85s           2025-08-24T17:32:11
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.63s           2025-08-24T17:32:15
+================================================================================
+[2025-08-24T18:32:42.004+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:32:46.825+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:32:46.826+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.84s           2025-08-24T17:32:42
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.64s           2025-08-24T17:32:46
+================================================================================
+[2025-08-24T18:33:13.660+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:33:20.509+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:33:20.510+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  2.75s           2025-08-24T17:33:20
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  1.57s           2025-08-24T17:33:13
+================================================================================
+[2025-08-24T18:33:34.780+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:33:34.790+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:33:44.574+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:33:51.531+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:33:51.532+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.85s           2025-08-24T17:33:44
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.74s           2025-08-24T17:33:51
+================================================================================
+[2025-08-24T18:34:15.697+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:34:22.609+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:34:22.610+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  1.05s           2025-08-24T17:34:15
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.85s           2025-08-24T17:34:22
+================================================================================
+[2025-08-24T18:34:46.725+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:34:53.836+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:34:53.839+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.95s           2025-08-24T17:34:53
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.95s           2025-08-24T17:34:46
+================================================================================
+[2025-08-24T18:35:17.948+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:35:24.721+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:35:24.722+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  1.15s           2025-08-24T17:35:17
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.73s           2025-08-24T17:35:24
+================================================================================
+[2025-08-24T18:35:48.939+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:35:55.559+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:35:55.560+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.95s           2025-08-24T17:35:48
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.64s           2025-08-24T17:35:55
+================================================================================
+[2025-08-24T18:36:19.652+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:36:26.498+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:36:26.499+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.63s           2025-08-24T17:36:26
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.63s           2025-08-24T17:36:19
+================================================================================
+[2025-08-24T18:36:50.686+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:36:57.651+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:36:57.652+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.95s           2025-08-24T17:36:50
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.87s           2025-08-24T17:36:57
+================================================================================
+[2025-08-24T18:37:21.713+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:37:28.741+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:37:28.742+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.95s           2025-08-24T17:37:21
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.84s           2025-08-24T17:37:28
+================================================================================
+[2025-08-24T18:37:52.429+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:37:59.659+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:37:59.660+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.63s           2025-08-24T17:37:52
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.63s           2025-08-24T17:37:59
+================================================================================
+[2025-08-24T18:38:23.134+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:38:30.707+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:38:30.709+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.75s           2025-08-24T17:38:30
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.63s           2025-08-24T17:38:23
+================================================================================
+[2025-08-24T18:38:35.259+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:38:35.268+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:38:53.953+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:39:01.605+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:39:01.606+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.74s           2025-08-24T17:38:53
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.64s           2025-08-24T17:39:01
+================================================================================
+[2025-08-24T18:39:24.671+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:39:32.633+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:39:32.634+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.74s           2025-08-24T17:39:32
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.64s           2025-08-24T17:39:24
+================================================================================
+[2025-08-24T18:39:55.588+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:40:03.723+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:40:03.725+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.84s           2025-08-24T17:40:03
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.84s           2025-08-24T17:39:55
+================================================================================
+[2025-08-24T18:40:26.503+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:40:34.801+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:40:34.802+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.84s           2025-08-24T17:40:34
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.84s           2025-08-24T17:40:26
+================================================================================
+[2025-08-24T18:40:57.522+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:41:06.016+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:41:06.017+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.95s           2025-08-24T17:40:57
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.94s           2025-08-24T17:41:06
+================================================================================
+[2025-08-24T18:41:28.548+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:41:37.109+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:41:37.110+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.95s           2025-08-24T17:41:28
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.84s           2025-08-24T17:41:37
+================================================================================
+[2025-08-24T18:41:59.546+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:42:08.004+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:42:08.004+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.94s           2025-08-24T17:41:59
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.63s           2025-08-24T17:42:08
+================================================================================
+[2025-08-24T18:42:30.580+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:42:39.106+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:42:39.107+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.95s           2025-08-24T17:42:30
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.84s           2025-08-24T17:42:39
+================================================================================
+[2025-08-24T18:43:01.479+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:43:09.989+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:43:09.990+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.85s           2025-08-24T17:43:01
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.64s           2025-08-24T17:43:09
+================================================================================
+[2025-08-24T18:43:32.303+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:43:36.252+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:43:36.260+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:43:40.891+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:43:40.892+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  0.74s           2025-08-24T17:43:32
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.63s           2025-08-24T17:43:40
+================================================================================
+[2025-08-24T18:44:03.435+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py exited with return code 1.
+[2025-08-24T18:44:12.011+0100] {manager.py:1016} ERROR - Processor for /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py exited with return code 1.
+[2025-08-24T18:44:12.012+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0          -1  1.05s           2025-08-24T17:44:03
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0          -1  0.85s           2025-08-24T17:44:12
+================================================================================
+[2025-08-24T18:44:30.105+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15

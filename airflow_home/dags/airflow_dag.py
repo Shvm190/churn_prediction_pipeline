@@ -5,8 +5,6 @@ import subprocess
 import os
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent  # project root
-subprocess.run(["python", str(BASE_DIR / "scripts/ingest.py")], check=True)
 
 default_args = {
     "owner": "shivam",
@@ -28,6 +26,7 @@ def churn_pipeline():
     
     @task
     def ingestion():
+        print(os.getcwd())
         run_cmd(["python", "scripts/ingest.py"])
         run_cmd(["dvc", "add", "data/raw/telco_churn.csv", "data/raw/hf_bank_customer_support.csv"])
         run_cmd(["git", "add", "*.dvc"])

@@ -29,8 +29,11 @@ docker-compose down --volumes --remove-orphans
 
 # Perfect & Cron:
 ```
-# Run daily at 1 AM
-0 1 * * * python /path/to/flow_prefect.py >> /path/to/logs/churn.log 2>&1
+# Run immediately once manually
+python dags/perfect_dag.py >> logs/churn.log 2>&1
+
+# Then run every hour
+0 * * * * python dags/perfect_dag.py >> logs/churn.log 2>&1
 ```
 
 

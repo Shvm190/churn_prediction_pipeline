@@ -6,9 +6,8 @@ import pandas as pd
 import os
 import sqlite3
 import logging
+from datetime import datetime
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def transform_data():
     """
@@ -56,4 +55,15 @@ def transform_data():
         logging.error(f"Data transformation failed with error: {e}")
 
 if __name__ == '__main__':
+    # Generate filename with current datetime
+    log_filename = f"logs/transform_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+    
+    # Configure logging
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        filename=log_filename,  # write logs to file
+        filemode='a'             # append mode
+    )
+    
     transform_data()

@@ -14,5 +14,4 @@ seaborn==0.13.2
 
 # Other dependencies
 kagglehub==0.3.12
-cryptography>=39.0.0
-perfect
+prefect

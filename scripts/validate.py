@@ -5,7 +5,8 @@ import numpy as np
 import os
 import logging
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+from datetime import datetime
+
 
 def generate_validation_report(df: pd.DataFrame) -> dict:
     """
@@ -52,6 +53,19 @@ def generate_validation_report(df: pd.DataFrame) -> dict:
     return report
 
 if __name__ == '__main__':
+
+    # Generate filename with current datetime
+    log_filename = f"logs/validate_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+    
+    # Configure logging
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        filename=log_filename,  # write logs to file
+        filemode='a'             # append mode
+    )
+    
+
     try:
         logging.info("Starting data validation...")
         
