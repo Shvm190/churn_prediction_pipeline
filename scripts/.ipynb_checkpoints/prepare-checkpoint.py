@@ -1,5 +1,3 @@
-
-# ---
 # scripts/prepare.py
 # Deliverables: A Jupyter notebook/Python script showcasing the process, visualizations, and a clean dataset
 
@@ -26,21 +24,16 @@ def prepare_data():
 
         # Load datasets
         df_telco = pd.read_csv(os.path.join(raw_data_dir, "telco_churn.csv"))
-        df_bank = pd.read_csv(os.path.join(raw_data_dir, "bank_marketing.csv"))
 
         # Clean 'TotalCharges' column in Telco data
         df_telco['TotalCharges'] = pd.to_numeric(df_telco['TotalCharges'], errors='coerce')
         df_telco.dropna(subset=['TotalCharges'], inplace=True)
         logging.info("Handled missing values in 'TotalCharges'.")
-        
-        # Join datasets (simulating combining data from multiple sources)
-        # Assuming we can join on customerID, but since these are different datasets,
-        # we'll just concatenate them for a single, large dataset for the purpose of the demo
-        df_bank.rename(columns={'age': 'customerID'}, inplace=True)  # Simple rename for a demo join
-        df_merged = pd.merge(df_telco, df_bank, on='customerID', how='inner')
-        logging.info(f"Merged datasets. New shape: {df_merged.shape}")
 
-        # Basic EDA and visualization
+        # Create a single merged DataFrame (for demonstration purposes)
+        df_merged = df_telco
+        
+        # --- Basic EDA and visualization ---
         plt.style.use('seaborn-v0_8-whitegrid')
         
         # EDA: Churn distribution
@@ -59,6 +52,32 @@ def prepare_data():
         plt.close()
         logging.info("Generated monthly charges vs churn plot.")
 
+        # --- Added Charts: Distribution of Churn against other features ---
+        
+        # Chart 1: Churn vs. Contract Type
+        plt.figure(figsize=(8, 6))
+        sns.countplot(x='Contract', hue='Churn', data=df_telco)
+        plt.title('Churn Rate by Contract Type')
+        plt.savefig(os.path.join(prepared_data_dir, 'churn_vs_contract.png'))
+        plt.close()
+        logging.info("Generated churn vs. contract plot.")
+        
+        # Chart 2: Churn vs. Internet Service
+        plt.figure(figsize=(8, 6))
+        sns.countplot(x='InternetService', hue='Churn', data=df_telco)
+        plt.title('Churn Rate by Internet Service')
+        plt.savefig(os.path.join(prepared_data_dir, 'churn_vs_internet_service.png'))
+        plt.close()
+        logging.info("Generated churn vs. internet service plot.")
+        
+        # Chart 3: Churn vs. Tenure (using a distribution plot)
+        plt.figure(figsize=(10, 6))
+        sns.histplot(data=df_telco, x='tenure', hue='Churn', multiple='stack')
+        plt.title('Tenure Distribution by Churn Status')
+        plt.savefig(os.path.join(prepared_data_dir, 'tenure_vs_churn.png'))
+        plt.close()
+        logging.info("Generated tenure vs. churn plot.")
+        
         # Save the cleaned dataset
         cleaned_file_path = os.path.join(prepared_data_dir, 'customer_data_cleaned.csv')
         df_merged.to_csv(cleaned_file_path, index=False)

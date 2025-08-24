@@ -26,8 +26,8 @@ default_args = {
     'depends_on_past': False,
     'email_on_failure': False,
     'email_on_retry': False,
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5),
+    'retries': 5,
+    'retry_delay': timedelta(seconds=5),
 }
 
 # Define the DAG itself using the @dag decorator
@@ -47,12 +47,22 @@ def churn_prediction_pipeline():
         """Fetches raw data from the internet."""
         os.system("python3 /opt/airflow/scripts/ingest.py")
 
+    @task.bash
+    # Initiate DVC
+    def init_dvc():
+        """Uses DVC and Git to version the raw data."""
+        return """
+            dvc init
+            git add /opt/airflow/data/.dvc /opt/airflow/data/.gitignore
+            git commit -m "Initialize DVC"
+        """
+    
     # 2. Automated DVC and Git for Raw Data using @task.bash
     @task.bash
     def add_and_commit_raw_data_task():
         """Uses DVC and Git to version the raw data."""
         return """
-            dvc add /opt/airflow/data/raw/telco_churn.csv /opt/airflow/data/raw/bank_marketing.csv &&
+            dvc add /opt/airflow/data/raw/telco_churn.csv /opt/airflow/data/raw/hf_bank_customer_support.csv &&
             git add /opt/airflow/data/.gitignore /opt/airflow/data/raw.dvc &&
             git commit -m "Version raw ingested data from pipeline run {{ ds }}"
         """
@@ -69,15 +79,15 @@ def churn_prediction_pipeline():
         """Prepares and cleans the data."""
         os.system("python3 /opt/airflow/scripts/prepare.py")
 
-    # 5. Automated DVC and Git for Prepared Data using @task.bash
-    @task.bash
-    def add_and_commit_prepared_data_task():
-        """Uses DVC and Git to version the prepared data."""
-        return """
-            dvc add /opt/airflow/data/prepared/customer_data_cleaned.csv &&
-            git add /opt/airflow/data/prepared.dvc &&
-            git commit -m "Version prepared data from pipeline run {{ ds }}"
-        """
+    # # 5. Automated DVC and Git for Prepared Data using @task.bash
+    # @task.bash
+    # def add_and_commit_prepared_data_task():
+    #     """Uses DVC and Git to version the prepared data."""
+    #     return """
+    #         dvc add /opt/airflow/data/prepared/customer_data_cleaned.csv &&
+    #         git add /opt/airflow/data/prepared.dvc &&
+    #         git commit -m "Version prepared data from pipeline run {{ ds }}"
+    #     """
 
     # 6. Data Transformation and Storage Task using @task decorator
     @task
@@ -85,19 +95,25 @@ def churn_prediction_pipeline():
         """Transforms data and stores it in a database."""
         os.system("python3 /opt/airflow/scripts/transform.py")
 
-    # 7. Automated DVC and Git for Transformed Data using @task.bash
-    @task.bash
-    def add_and_commit_transformed_data_task():
-        """Uses DVC and Git to version the transformed data."""
-        return """
-            dvc add /opt/airflow/data/processed/customer_features.db &&
-            git add /opt/airflow/data/processed.dvc &&
-            git commit -m "Version transformed features from pipeline run {{ ds }}"
-        """
+    # # 7. Automated DVC and Git for Transformed Data using @task.bash
+    # @task.bash
+    # def add_and_commit_transformed_data_task():
+    #     """Uses DVC and Git to version the transformed data."""
+    #     return """
+    #         dvc add /opt/airflow/data/processed/customer_features.db &&
+    #         git add /opt/airflow/data/processed.dvc &&
+    #         git commit -m "Version transformed features from pipeline run {{ ds }}"
+    #     """
+
+    @task
+    def transform_and_store_task():
+        """Transforms data and stores it in a database."""
+        os.system("python3 /opt/airflow/scripts/transform.py")
 
     # Define the task dependencies using bitshift operators
     # This creates the same pipeline flow as the original code
-    ingest_data_task() >> add_and_commit_raw_data_task() >> validate_data_task() >> prepare_data_task() >> add_and_commit_prepared_data_task() >> transform_and_store_task() >> add_and_commit_transformed_data_task()
+    ingest_data_task() >> validate_data_task() >> prepare_data_task() >> transform_and_store_task()
+        # ingest_data_task() >> add_and_commit_raw_data_task() >> validate_data_task() >> prepare_data_task() >> add_and_commit_prepared_data_task() >> transform_and_store_task() >> add_and_commit_transformed_data_task()
 
 # Call the function to create the DAG instance
 churn_prediction_pipeline()

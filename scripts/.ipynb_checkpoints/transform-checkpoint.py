@@ -1,4 +1,3 @@
-
 # ---
 # scripts/transform.py
 # Deliverables: SQL schema, sample queries, and a transformed dataset in a database
@@ -27,14 +26,22 @@ def transform_data():
 
         # 1. Feature Engineering
         # Create aggregated features (e.g., avg_monthly_charge_per_tenure)
+        # This is a key predictive feature for churn
         df['avg_monthly_charge_per_tenure'] = df['MonthlyCharges'] / (df['tenure'] + 1e-6)
 
-        # Derive new features (e.g., IsSeniorCitizen from age)
-        df['IsSeniorCitizen'] = df['age'].apply(lambda x: 1 if x >= 65 else 0)
-        logging.info("Engineered new features: 'avg_monthly_charge_per_tenure' and 'IsSeniorCitizen'.")
+        # The 'age' column does not exist in the Telco Churn dataset.
+        # We use the existing 'SeniorCitizen' (0/1) column directly.
+        # df['IsSeniorCitizen'] = df['age'].apply(lambda x: 1 if x >= 65 else 0)
+        logging.info("Engineered new feature: 'avg_monthly_charge_per_tenure'.")
 
         # 2. Categorical variable encoding (One-Hot Encoding)
+        # Identify non-numeric columns to encode
         categorical_cols = df.select_dtypes(include='object').columns.tolist()
+        
+        # Remove 'customerID' from encoding, as it's an identifier, not a feature
+        if 'customerID' in categorical_cols:
+            categorical_cols.remove('customerID')
+            
         df_encoded = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
         logging.info("Encoded categorical variables using one-hot encoding.")
 

@@ -1,0 +1,6 @@
+artifact_location: file:///Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/mlruns/849391363932348398
+creation_time: 1756052111265
+experiment_id: '849391363932348398'
+last_update_time: 1756052111265
+lifecycle_stage: active
+name: Churn Prediction RF Model Training

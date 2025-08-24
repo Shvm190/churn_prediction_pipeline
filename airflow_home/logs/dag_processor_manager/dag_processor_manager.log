@@ -1,0 +1,1125 @@
+[2025-08-24T17:35:07.129+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-08-24T17:35:07.129+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-08-24T17:35:07.129+0100] {manager.py:472} INFO - Checking for new files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags every 300 seconds
+[2025-08-24T17:35:07.129+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:35:07.144+0100] {manager.py:740} INFO - There are 53 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:35:07.971+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.76s           2025-08-24T16:35:07
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                                                       0           0
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                                                                                0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0
+================================================================================
+[2025-08-24T17:35:38.027+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.14s           2025-08-24T16:35:10
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.81s           2025-08-24T16:35:20
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.79s           2025-08-24T16:35:32
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.76s           2025-08-24T16:35:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.75s           2025-08-24T16:35:18
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.74s           2025-08-24T16:35:34
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.73s           2025-08-24T16:35:27
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.71s           2025-08-24T16:35:22
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.71s           2025-08-24T16:35:24
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.70s           2025-08-24T16:35:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.70s           2025-08-24T16:35:38
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.70s           2025-08-24T16:35:29
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.70s           2025-08-24T16:35:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.70s           2025-08-24T16:35:36
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.65s           2025-08-24T16:35:11
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.64s           2025-08-24T16:35:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.64s           2025-08-24T16:35:15
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.64s           2025-08-24T16:35:13
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                                                       0           0
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                                                                                0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+================================================================================
+[2025-08-24T17:36:08.986+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.14s           2025-08-24T16:35:10
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.81s           2025-08-24T16:35:20
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.79s           2025-08-24T16:35:32
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.76s           2025-08-24T16:35:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.75s           2025-08-24T16:35:18
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.74s           2025-08-24T16:35:45
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.74s           2025-08-24T16:35:34
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.74s           2025-08-24T16:35:43
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.73s           2025-08-24T16:35:27
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.73s           2025-08-24T16:35:57
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.72s           2025-08-24T16:35:53
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.72s           2025-08-24T16:35:52
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.72s           2025-08-24T16:35:39
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.71s           2025-08-24T16:36:02
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.71s           2025-08-24T16:35:46
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.71s           2025-08-24T16:35:50
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.71s           2025-08-24T16:35:55
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.71s           2025-08-24T16:36:00
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.71s           2025-08-24T16:35:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.71s           2025-08-24T16:35:22
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.71s           2025-08-24T16:35:24
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.71s           2025-08-24T16:35:48
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.70s           2025-08-24T16:35:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.70s           2025-08-24T16:35:38
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.70s           2025-08-24T16:35:29
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.70s           2025-08-24T16:35:41
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.70s           2025-08-24T16:35:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.70s           2025-08-24T16:35:36
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.69s           2025-08-24T16:36:05
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.69s           2025-08-24T16:36:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.66s           2025-08-24T16:36:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.66s           2025-08-24T16:36:04
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.65s           2025-08-24T16:35:11
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.64s           2025-08-24T16:35:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.64s           2025-08-24T16:35:15
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.64s           2025-08-24T16:35:13
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                                                       0           0
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                                                                                0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0
+================================================================================
+[2025-08-24T17:36:39.155+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.16s           2025-08-24T16:36:39
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.81s           2025-08-24T16:35:20
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.79s           2025-08-24T16:35:32
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.78s           2025-08-24T16:36:18
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.77s           2025-08-24T16:36:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.75s           2025-08-24T16:36:29
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.75s           2025-08-24T16:35:18
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.74s           2025-08-24T16:35:45
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.74s           2025-08-24T16:35:34
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.74s           2025-08-24T16:35:43
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.73s           2025-08-24T16:35:27
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.73s           2025-08-24T16:35:57
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.72s           2025-08-24T16:35:53
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.72s           2025-08-24T16:36:20
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.72s           2025-08-24T16:35:52
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.72s           2025-08-24T16:35:39
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                                                                                1           0  0.72s           2025-08-24T16:36:35
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.71s           2025-08-24T16:36:02
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.71s           2025-08-24T16:35:46
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.71s           2025-08-24T16:35:50
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.71s           2025-08-24T16:35:55
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.71s           2025-08-24T16:36:00
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.71s           2025-08-24T16:35:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.71s           2025-08-24T16:35:22
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.71s           2025-08-24T16:35:24
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.71s           2025-08-24T16:35:48
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.70s           2025-08-24T16:36:13
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.70s           2025-08-24T16:35:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.70s           2025-08-24T16:36:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.70s           2025-08-24T16:36:26
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.70s           2025-08-24T16:36:14
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                                                       1           0  0.70s           2025-08-24T16:36:33
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.70s           2025-08-24T16:35:38
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.70s           2025-08-24T16:35:29
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.70s           2025-08-24T16:35:41
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.70s           2025-08-24T16:35:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.70s           2025-08-24T16:35:36
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.70s           2025-08-24T16:36:22
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.70s           2025-08-24T16:36:27
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.69s           2025-08-24T16:36:05
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.69s           2025-08-24T16:36:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.69s           2025-08-24T16:36:11
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.68s           2025-08-24T16:36:09
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.67s           2025-08-24T16:36:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.66s           2025-08-24T16:36:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.66s           2025-08-24T16:36:04
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.65s           2025-08-24T16:36:23
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.65s           2025-08-24T16:35:11
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.64s           2025-08-24T16:35:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.64s           2025-08-24T16:36:24
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.64s           2025-08-24T16:35:15
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.64s           2025-08-24T16:36:36
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.64s           2025-08-24T16:35:13
+================================================================================
+[2025-08-24T17:37:09.671+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.16s           2025-08-24T16:36:39
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.78s           2025-08-24T16:36:18
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.77s           2025-08-24T16:36:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.75s           2025-08-24T16:36:29
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.74s           2025-08-24T16:36:53
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.73s           2025-08-24T16:35:57
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.72s           2025-08-24T16:36:51
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.72s           2025-08-24T16:35:53
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.72s           2025-08-24T16:36:47
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.72s           2025-08-24T16:36:20
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.72s           2025-08-24T16:35:52
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                                                                                1           0  0.72s           2025-08-24T16:36:35
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.71s           2025-08-24T16:36:02
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.71s           2025-08-24T16:35:50
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.71s           2025-08-24T16:35:55
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.71s           2025-08-24T16:36:00
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.71s           2025-08-24T16:35:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.71s           2025-08-24T16:35:48
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.70s           2025-08-24T16:36:13
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.70s           2025-08-24T16:36:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.70s           2025-08-24T16:36:26
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.70s           2025-08-24T16:36:14
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                                                       1           0  0.70s           2025-08-24T16:36:33
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.70s           2025-08-24T16:36:49
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.70s           2025-08-24T16:36:22
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.70s           2025-08-24T16:36:27
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.69s           2025-08-24T16:36:52
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.69s           2025-08-24T16:36:05
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.69s           2025-08-24T16:36:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.69s           2025-08-24T16:36:11
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.68s           2025-08-24T16:36:09
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.67s           2025-08-24T16:36:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.67s           2025-08-24T16:37:04
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.67s           2025-08-24T16:36:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.67s           2025-08-24T16:37:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.67s           2025-08-24T16:37:09
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.67s           2025-08-24T16:36:55
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.67s           2025-08-24T16:37:02
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.67s           2025-08-24T16:36:57
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.67s           2025-08-24T16:37:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.67s           2025-08-24T16:36:46
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.67s           2025-08-24T16:37:06
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.66s           2025-08-24T16:36:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.66s           2025-08-24T16:36:04
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.65s           2025-08-24T16:36:44
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.65s           2025-08-24T16:36:23
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.64s           2025-08-24T16:36:40
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.64s           2025-08-24T16:36:42
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.64s           2025-08-24T16:36:24
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.64s           2025-08-24T16:36:41
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.64s           2025-08-24T16:37:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.64s           2025-08-24T16:36:36
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.63s           2025-08-24T16:36:55
+================================================================================
+[2025-08-24T17:37:41.073+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.08s           2025-08-24T16:37:32
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.89s           2025-08-24T16:37:34
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.78s           2025-08-24T16:36:18
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.77s           2025-08-24T16:36:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.75s           2025-08-24T16:36:29
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.74s           2025-08-24T16:36:53
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.73s           2025-08-24T16:37:30
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.72s           2025-08-24T16:36:51
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.72s           2025-08-24T16:36:47
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.72s           2025-08-24T16:36:20
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                                                                                1           0  0.72s           2025-08-24T16:36:35
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.70s           2025-08-24T16:36:13
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.70s           2025-08-24T16:36:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.70s           2025-08-24T16:36:26
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.70s           2025-08-24T16:36:14
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                                                       1           0  0.70s           2025-08-24T16:36:33
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.70s           2025-08-24T16:36:49
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.70s           2025-08-24T16:36:22
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.70s           2025-08-24T16:36:27
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.70s           2025-08-24T16:37:21
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.69s           2025-08-24T16:37:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.69s           2025-08-24T16:36:52
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.69s           2025-08-24T16:36:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.69s           2025-08-24T16:36:11
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.68s           2025-08-24T16:37:13
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.68s           2025-08-24T16:37:14
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.68s           2025-08-24T16:37:23
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.68s           2025-08-24T16:36:09
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.68s           2025-08-24T16:37:28
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.67s           2025-08-24T16:36:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.67s           2025-08-24T16:37:04
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.67s           2025-08-24T16:37:19
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.67s           2025-08-24T16:36:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.67s           2025-08-24T16:37:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.67s           2025-08-24T16:37:09
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.67s           2025-08-24T16:36:55
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.67s           2025-08-24T16:37:02
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.67s           2025-08-24T16:36:57
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.67s           2025-08-24T16:37:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.67s           2025-08-24T16:37:18
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.67s           2025-08-24T16:37:26
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.67s           2025-08-24T16:37:06
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.66s           2025-08-24T16:37:39
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.66s           2025-08-24T16:37:11
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.66s           2025-08-24T16:37:41
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.66s           2025-08-24T16:37:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.66s           2025-08-24T16:36:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.65s           2025-08-24T16:36:23
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.65s           2025-08-24T16:37:37
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.64s           2025-08-24T16:37:35
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.64s           2025-08-24T16:36:24
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.64s           2025-08-24T16:37:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.63s           2025-08-24T16:36:55
+================================================================================
+[2025-08-24T17:38:12.188+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.08s           2025-08-24T16:37:32
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.89s           2025-08-24T16:37:34
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.89s           2025-08-24T16:37:57
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.78s           2025-08-24T16:38:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.75s           2025-08-24T16:38:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.75s           2025-08-24T16:38:04
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.75s           2025-08-24T16:36:29
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.74s           2025-08-24T16:38:05
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.73s           2025-08-24T16:37:30
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.73s           2025-08-24T16:37:44
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.72s           2025-08-24T16:37:51
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                                                                                1           0  0.72s           2025-08-24T16:36:35
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.72s           2025-08-24T16:37:42
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.70s           2025-08-24T16:36:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.70s           2025-08-24T16:36:26
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                                                       1           0  0.70s           2025-08-24T16:36:33
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.70s           2025-08-24T16:37:48
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.70s           2025-08-24T16:36:27
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.70s           2025-08-24T16:38:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.70s           2025-08-24T16:37:21
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.69s           2025-08-24T16:37:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.69s           2025-08-24T16:37:55
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.68s           2025-08-24T16:37:13
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.68s           2025-08-24T16:37:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.68s           2025-08-24T16:37:14
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.68s           2025-08-24T16:37:23
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.68s           2025-08-24T16:37:53
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.68s           2025-08-24T16:38:12
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.68s           2025-08-24T16:37:46
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.68s           2025-08-24T16:37:28
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.67s           2025-08-24T16:37:50
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.67s           2025-08-24T16:37:04
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.67s           2025-08-24T16:37:19
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.67s           2025-08-24T16:36:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.67s           2025-08-24T16:37:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.67s           2025-08-24T16:37:09
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.67s           2025-08-24T16:37:02
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.67s           2025-08-24T16:38:03
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.67s           2025-08-24T16:38:10
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.67s           2025-08-24T16:37:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.67s           2025-08-24T16:37:18
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.67s           2025-08-24T16:37:26
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.67s           2025-08-24T16:37:06
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.66s           2025-08-24T16:37:39
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.66s           2025-08-24T16:37:11
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.66s           2025-08-24T16:37:41
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.66s           2025-08-24T16:37:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.66s           2025-08-24T16:37:56
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.65s           2025-08-24T16:37:37
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.64s           2025-08-24T16:37:46
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.64s           2025-08-24T16:37:35
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.64s           2025-08-24T16:36:24
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.64s           2025-08-24T16:37:07
+================================================================================
+[2025-08-24T17:38:42.531+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.20s           2025-08-24T16:38:28
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.89s           2025-08-24T16:37:57
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.80s           2025-08-24T16:38:21
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.78s           2025-08-24T16:38:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.75s           2025-08-24T16:38:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.75s           2025-08-24T16:38:04
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.74s           2025-08-24T16:38:19
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.74s           2025-08-24T16:38:17
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.74s           2025-08-24T16:38:05
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.72s           2025-08-24T16:37:51
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                                                       1           0  0.71s           2025-08-24T16:38:23
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                                                                                1           0  0.70s           2025-08-24T16:38:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.70s           2025-08-24T16:37:48
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.70s           2025-08-24T16:38:39
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.70s           2025-08-24T16:38:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.70s           2025-08-24T16:37:21
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.69s           2025-08-24T16:37:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.69s           2025-08-24T16:37:55
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.68s           2025-08-24T16:37:13
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.68s           2025-08-24T16:37:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.68s           2025-08-24T16:37:14
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.68s           2025-08-24T16:37:23
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.68s           2025-08-24T16:38:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.68s           2025-08-24T16:37:53
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.68s           2025-08-24T16:38:40
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.68s           2025-08-24T16:38:37
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.68s           2025-08-24T16:38:12
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.68s           2025-08-24T16:38:14
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.68s           2025-08-24T16:37:28
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.67s           2025-08-24T16:37:50
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.67s           2025-08-24T16:37:04
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.67s           2025-08-24T16:37:19
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.67s           2025-08-24T16:37:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.67s           2025-08-24T16:37:09
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.67s           2025-08-24T16:37:02
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.67s           2025-08-24T16:38:03
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.67s           2025-08-24T16:38:10
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.67s           2025-08-24T16:37:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.67s           2025-08-24T16:38:13
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.67s           2025-08-24T16:38:42
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.67s           2025-08-24T16:37:18
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.67s           2025-08-24T16:37:26
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.67s           2025-08-24T16:37:06
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.66s           2025-08-24T16:37:11
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.66s           2025-08-24T16:37:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.66s           2025-08-24T16:37:56
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.66s           2025-08-24T16:38:32
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.65s           2025-08-24T16:38:35
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.64s           2025-08-24T16:37:46
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.64s           2025-08-24T16:38:33
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.64s           2025-08-24T16:38:30
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.64s           2025-08-24T16:38:26
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.64s           2025-08-24T16:37:07
+================================================================================
+[2025-08-24T17:39:14.169+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.20s           2025-08-24T16:38:28
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.89s           2025-08-24T16:37:57
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.80s           2025-08-24T16:38:21
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.78s           2025-08-24T16:38:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.76s           2025-08-24T16:38:53
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.75s           2025-08-24T16:38:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.75s           2025-08-24T16:38:04
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.74s           2025-08-24T16:38:19
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.74s           2025-08-24T16:38:17
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.74s           2025-08-24T16:38:05
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.73s           2025-08-24T16:38:51
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.72s           2025-08-24T16:38:46
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.71s           2025-08-24T16:38:49
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                                                       1           0  0.71s           2025-08-24T16:38:23
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.71s           2025-08-24T16:38:58
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                                                                                1           0  0.70s           2025-08-24T16:38:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.70s           2025-08-24T16:38:54
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.70s           2025-08-24T16:39:12
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.70s           2025-08-24T16:38:39
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.70s           2025-08-24T16:38:56
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.70s           2025-08-24T16:38:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.70s           2025-08-24T16:38:47
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.70s           2025-08-24T16:37:21
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.69s           2025-08-24T16:37:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.69s           2025-08-24T16:38:44
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.69s           2025-08-24T16:39:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.69s           2025-08-24T16:39:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.69s           2025-08-24T16:39:14
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.68s           2025-08-24T16:37:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.68s           2025-08-24T16:37:23
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.68s           2025-08-24T16:38:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.68s           2025-08-24T16:38:40
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.68s           2025-08-24T16:38:37
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.68s           2025-08-24T16:39:03
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.68s           2025-08-24T16:39:05
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.68s           2025-08-24T16:39:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.68s           2025-08-24T16:38:12
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.68s           2025-08-24T16:38:14
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.68s           2025-08-24T16:37:28
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.67s           2025-08-24T16:38:03
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.67s           2025-08-24T16:38:10
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.67s           2025-08-24T16:38:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.67s           2025-08-24T16:38:13
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.67s           2025-08-24T16:38:42
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.67s           2025-08-24T16:39:10
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.67s           2025-08-24T16:37:26
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.66s           2025-08-24T16:39:06
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.66s           2025-08-24T16:37:56
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.66s           2025-08-24T16:38:32
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.65s           2025-08-24T16:38:35
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.64s           2025-08-24T16:38:33
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.64s           2025-08-24T16:38:30
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.64s           2025-08-24T16:38:26
+================================================================================
+[2025-08-24T17:39:44.792+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.14s           2025-08-24T16:39:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.89s           2025-08-24T16:37:57
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.81s           2025-08-24T16:39:41
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.80s           2025-08-24T16:38:21
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.79s           2025-08-24T16:39:39
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.78s           2025-08-24T16:38:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.77s           2025-08-24T16:39:44
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.76s           2025-08-24T16:38:53
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.75s           2025-08-24T16:38:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.75s           2025-08-24T16:38:04
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.74s           2025-08-24T16:39:34
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.74s           2025-08-24T16:38:19
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.74s           2025-08-24T16:38:17
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.74s           2025-08-24T16:38:05
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.73s           2025-08-24T16:38:51
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.73s           2025-08-24T16:39:21
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.72s           2025-08-24T16:39:17
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.71s           2025-08-24T16:39:31
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                                                       1           0  0.71s           2025-08-24T16:38:23
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.71s           2025-08-24T16:39:33
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.71s           2025-08-24T16:38:58
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                                                                                1           0  0.70s           2025-08-24T16:38:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.70s           2025-08-24T16:38:54
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.70s           2025-08-24T16:39:12
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.70s           2025-08-24T16:39:30
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.70s           2025-08-24T16:38:56
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.70s           2025-08-24T16:38:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.69s           2025-08-24T16:39:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.69s           2025-08-24T16:39:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.69s           2025-08-24T16:39:14
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.68s           2025-08-24T16:37:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.68s           2025-08-24T16:38:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.68s           2025-08-24T16:39:36
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.68s           2025-08-24T16:39:15
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.68s           2025-08-24T16:39:03
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.68s           2025-08-24T16:39:05
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.68s           2025-08-24T16:39:19
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.68s           2025-08-24T16:39:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.68s           2025-08-24T16:38:12
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.68s           2025-08-24T16:38:14
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.68s           2025-08-24T16:39:28
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.67s           2025-08-24T16:38:03
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.67s           2025-08-24T16:38:10
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.67s           2025-08-24T16:38:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.67s           2025-08-24T16:38:13
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.67s           2025-08-24T16:39:10
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.67s           2025-08-24T16:39:42
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.67s           2025-08-24T16:39:37
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.66s           2025-08-24T16:39:06
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.66s           2025-08-24T16:37:56
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.65s           2025-08-24T16:39:23
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.64s           2025-08-24T16:39:18
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.64s           2025-08-24T16:39:26
+================================================================================
+[2025-08-24T17:40:08.093+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:40:08.124+0100] {manager.py:740} INFO - There are 53 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:40:16.149+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  1.14s           2025-08-24T16:39:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.81s           2025-08-24T16:39:41
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.79s           2025-08-24T16:39:39
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.78s           2025-08-24T16:40:00
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.77s           2025-08-24T16:39:44
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.76s           2025-08-24T16:38:53
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.74s           2025-08-24T16:39:34
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.74s           2025-08-24T16:40:14
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.73s           2025-08-24T16:39:21
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.72s           2025-08-24T16:40:11
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.72s           2025-08-24T16:39:17
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.71s           2025-08-24T16:39:31
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.71s           2025-08-24T16:39:33
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.71s           2025-08-24T16:39:58
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.71s           2025-08-24T16:38:58
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                                                                                1           0  0.70s           2025-08-24T16:38:25
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.70s           2025-08-24T16:38:54
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.70s           2025-08-24T16:39:12
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.70s           2025-08-24T16:39:30
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.70s           2025-08-24T16:38:56
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.69s           2025-08-24T16:39:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.69s           2025-08-24T16:39:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.69s           2025-08-24T16:39:14
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.68s           2025-08-24T16:39:36
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.68s           2025-08-24T16:39:49
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.68s           2025-08-24T16:39:15
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.68s           2025-08-24T16:39:03
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.68s           2025-08-24T16:39:05
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.68s           2025-08-24T16:39:19
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.68s           2025-08-24T16:39:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.68s           2025-08-24T16:39:28
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.67s           2025-08-24T16:39:54
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.67s           2025-08-24T16:40:03
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                                                       1           0  0.67s           2025-08-24T16:40:16
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.67s           2025-08-24T16:38:59
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.67s           2025-08-24T16:39:10
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.67s           2025-08-24T16:39:42
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.67s           2025-08-24T16:39:56
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.67s           2025-08-24T16:39:37
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.66s           2025-08-24T16:39:06
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.66s           2025-08-24T16:39:46
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.66s           2025-08-24T16:40:01
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.66s           2025-08-24T16:39:51
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.66s           2025-08-24T16:40:12
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.65s           2025-08-24T16:39:53
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.65s           2025-08-24T16:40:05
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.65s           2025-08-24T16:39:48
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.65s           2025-08-24T16:39:23
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.65s           2025-08-24T16:40:07
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.65s           2025-08-24T16:40:09
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.65s           2025-08-24T16:40:08
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.64s           2025-08-24T16:39:18
+/Users/homeaccount/miniconda3/envs/churn_pipeline/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.64s           2025-08-24T16:39:26
+================================================================================
+[2025-08-24T17:40:47.014+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-08-24T17:41:24.434+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-08-24T17:41:24.434+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-08-24T17:41:24.434+0100] {manager.py:472} INFO - Checking for new files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags every 300 seconds
+[2025-08-24T17:41:24.434+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:41:24.436+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:41:25.189+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                  1           0  0.68s           2025-08-24T16:41:25
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                           0           0
+================================================================================
+[2025-08-24T17:41:55.952+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                  1           0  0.68s           2025-08-24T16:41:55
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                           1           0  0.67s           2025-08-24T16:41:26
+================================================================================
+[2025-08-24T17:42:27.501+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                  1           0  0.81s           2025-08-24T16:42:27
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                           1           0  0.67s           2025-08-24T16:41:57
+================================================================================
+[2025-08-24T17:42:58.295+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                  1           0  0.73s           2025-08-24T16:42:50
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                           1           0  0.68s           2025-08-24T16:42:29
+================================================================================
+[2025-08-24T17:43:28.603+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py                           1           0  0.69s           2025-08-24T16:43:00
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                  1           0  0.69s           2025-08-24T16:43:01
+================================================================================
+[2025-08-24T17:43:41.437+0100] {manager.py:1128} WARNING - Skipping processing of missing file: /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/churn_pipeline_dag.py
+[2025-08-24T17:43:59.524+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                           1           0  0.72s           2025-08-24T16:43:33
+================================================================================
+[2025-08-24T17:44:29.841+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                           1           0  0.68s           2025-08-24T16:44:04
+================================================================================
+[2025-08-24T17:45:00.330+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                           1           0  0.70s           2025-08-24T16:44:35
+================================================================================
+[2025-08-24T17:45:30.614+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                           1           0  0.90s           2025-08-24T16:45:06
+================================================================================
+[2025-08-24T17:46:00.903+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                           1           0  1.48s           2025-08-24T16:45:38
+================================================================================
+[2025-08-24T17:46:24.799+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:46:24.806+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:46:31.830+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.92s           2025-08-24T16:46:25
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.89s           2025-08-24T16:46:09
+================================================================================
+[2025-08-24T17:47:02.870+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.91s           2025-08-24T16:46:56
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.89s           2025-08-24T16:46:40
+================================================================================
+[2025-08-24T17:47:33.613+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.96s           2025-08-24T16:47:11
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.69s           2025-08-24T16:47:27
+================================================================================
+[2025-08-24T17:48:04.421+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.73s           2025-08-24T16:47:58
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.69s           2025-08-24T16:47:42
+================================================================================
+[2025-08-24T17:48:35.201+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.69s           2025-08-24T16:48:29
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.69s           2025-08-24T16:48:13
+================================================================================
+[2025-08-24T17:49:06.135+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.90s           2025-08-24T16:48:44
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.85s           2025-08-24T16:49:00
+================================================================================
+[2025-08-24T17:49:36.955+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.75s           2025-08-24T16:49:30
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.68s           2025-08-24T16:49:14
+================================================================================
+[2025-08-24T17:50:07.962+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.88s           2025-08-24T16:49:45
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.87s           2025-08-24T16:50:01
+================================================================================
+[2025-08-24T17:50:38.715+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.73s           2025-08-24T16:50:16
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.70s           2025-08-24T16:50:32
+================================================================================
+[2025-08-24T17:51:09.514+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.75s           2025-08-24T16:51:03
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.69s           2025-08-24T16:50:47
+================================================================================
+[2025-08-24T17:51:25.260+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:51:25.268+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:51:40.451+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.87s           2025-08-24T16:51:34
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.69s           2025-08-24T16:51:18
+================================================================================
+[2025-08-24T17:52:11.344+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.95s           2025-08-24T16:51:49
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.74s           2025-08-24T16:52:05
+================================================================================
+[2025-08-24T17:52:42.326+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.97s           2025-08-24T16:52:36
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.76s           2025-08-24T16:52:20
+================================================================================
+[2025-08-24T17:53:12.335+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.97s           2025-08-24T16:53:07
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.95s           2025-08-24T16:52:51
+================================================================================
+[2025-08-24T17:53:42.384+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.86s           2025-08-24T16:53:22
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.82s           2025-08-24T16:53:38
+================================================================================
+[2025-08-24T17:54:13.372+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.93s           2025-08-24T16:53:53
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.81s           2025-08-24T16:54:09
+================================================================================
+[2025-08-24T17:54:44.115+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.70s           2025-08-24T16:54:24
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.69s           2025-08-24T16:54:39
+================================================================================
+[2025-08-24T17:55:14.845+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.75s           2025-08-24T16:54:54
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.68s           2025-08-24T16:55:10
+================================================================================
+[2025-08-24T17:55:45.245+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  1.03s           2025-08-24T16:55:26
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.96s           2025-08-24T16:55:42
+================================================================================
+[2025-08-24T17:56:16.206+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.90s           2025-08-24T16:56:13
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.88s           2025-08-24T16:55:57
+================================================================================
+[2025-08-24T17:56:25.486+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:56:25.493+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T17:56:46.366+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  1.04s           2025-08-24T16:56:44
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.96s           2025-08-24T16:56:28
+================================================================================
+[2025-08-24T17:57:17.405+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  1.00s           2025-08-24T16:57:15
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.91s           2025-08-24T16:56:59
+================================================================================
+[2025-08-24T17:57:48.366+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.88s           2025-08-24T16:57:46
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.74s           2025-08-24T16:57:30
+================================================================================
+[2025-08-24T17:58:19.136+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.75s           2025-08-24T16:58:01
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.69s           2025-08-24T16:58:17
+================================================================================
+[2025-08-24T17:58:49.940+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.86s           2025-08-24T16:58:32
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.74s           2025-08-24T16:58:47
+================================================================================
+[2025-08-24T17:59:20.684+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.68s           2025-08-24T16:59:18
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.68s           2025-08-24T16:59:02
+================================================================================
+[2025-08-24T17:59:51.440+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.73s           2025-08-24T16:59:33
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.70s           2025-08-24T16:59:49
+================================================================================
+[2025-08-24T18:00:21.610+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  1.02s           2025-08-24T17:00:20
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.88s           2025-08-24T17:00:04
+================================================================================
+[2025-08-24T18:00:52.607+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.93s           2025-08-24T17:00:51
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.76s           2025-08-24T17:00:35
+================================================================================
+[2025-08-24T18:01:23.584+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.96s           2025-08-24T17:01:06
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.91s           2025-08-24T17:01:22
+================================================================================
+[2025-08-24T18:01:25.672+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:01:25.680+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:01:53.784+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  1.20s           2025-08-24T17:01:53
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.95s           2025-08-24T17:01:37
+================================================================================
+[2025-08-24T18:02:24.560+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.91s           2025-08-24T17:02:08
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.69s           2025-08-24T17:02:24
+================================================================================
+[2025-08-24T18:02:55.505+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.88s           2025-08-24T17:02:55
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.69s           2025-08-24T17:02:24
+================================================================================
+[2025-08-24T18:03:26.439+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.85s           2025-08-24T17:03:26
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.70s           2025-08-24T17:02:57
+================================================================================
+[2025-08-24T18:03:57.220+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.90s           2025-08-24T17:03:28
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  0.70s           2025-08-24T17:03:57
+================================================================================
+[2025-08-24T18:04:28.489+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         1           0  1.18s           2025-08-24T17:04:28
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.71s           2025-08-24T17:04:00
+================================================================================
+[2025-08-24T18:04:39.592+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-08-24T18:05:12.538+0100] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-08-24T18:05:12.538+0100] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-08-24T18:05:12.539+0100] {manager.py:472} INFO - Checking for new files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags every 300 seconds
+[2025-08-24T18:05:12.539+0100] {manager.py:737} INFO - Searching for files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:05:12.540+0100] {manager.py:740} INFO - There are 2 files in /Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags
+[2025-08-24T18:05:13.356+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0           1  0.75s           2025-08-24T17:05:13
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           0           0
+================================================================================
+[2025-08-24T18:05:45.357+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0           1  0.96s           2025-08-24T17:05:45
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.73s           2025-08-24T17:05:15
+================================================================================
+[2025-08-24T18:06:16.723+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/airflow_dag.py                                                         0           1  0.99s           2025-08-24T17:06:16
+/Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/airflow_home/dags/.ipynb_checkpoints/airflow_dag-checkpoint.py                           1           0  0.85s           2025-08-24T17:05:47
+================================================================================
+[2025-08-24T18:06:22.428+0100] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
