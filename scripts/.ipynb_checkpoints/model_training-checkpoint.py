@@ -26,14 +26,14 @@ def train_and_log_models(db_path):
     Trains and evaluates a Random Forest model and logs it using MLflow.
     """
     # 1. Data Loading and Splitting
-    print("--- Starting Model Training and Evaluation ---")
-    print("Loading data from database...")
+    logging.info("--- Starting Model Training and Evaluation ---")
+    logging.info("Loading data from database...")
     try:
         conn = sqlite3.connect(db_path)
         df = pd.read_sql_query("SELECT * FROM customer_features", conn)
         conn.close()
     except Exception as e:
-        print(f"Error loading data: {e}")
+        logging.info(f"Error loading data: {e}")
         return
 
     X = df.drop('Churn_Yes', axis=1)

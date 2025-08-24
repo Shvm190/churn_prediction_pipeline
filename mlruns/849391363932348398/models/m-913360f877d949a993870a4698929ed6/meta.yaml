@@ -1,0 +1,10 @@
+artifact_location: file:///Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/mlruns/849391363932348398/models/m-913360f877d949a993870a4698929ed6/artifacts
+creation_timestamp: 1756058640168
+experiment_id: '849391363932348398'
+last_updated_timestamp: 1756058641807
+model_id: m-913360f877d949a993870a4698929ed6
+model_type: null
+name: random_forest_model
+source_run_id: dcae64c2592040a29eb94397876ab9c8
+status: 2
+status_message: null

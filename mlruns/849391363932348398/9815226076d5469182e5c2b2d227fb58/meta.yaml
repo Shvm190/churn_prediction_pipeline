@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/homeaccount/PycharmProjects/dmml/churn_prediction_pipeline/mlruns/849391363932348398/9815226076d5469182e5c2b2d227fb58/artifacts
+end_time: 1756058505417
+entry_point_name: ''
+experiment_id: '849391363932348398'
+lifecycle_stage: active
+run_id: 9815226076d5469182e5c2b2d227fb58
+run_name: Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756058501836
+status: 3
+tags: []
+user_id: homeaccount
