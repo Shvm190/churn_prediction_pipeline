@@ -1,0 +1,84 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -d $$POSTGRES_DB -U $$POSTGRES_USER"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: always
+    volumes:
+      - postgres_data:/var/lib/postgresql/data   # ✅ persist DB
+
+  airflow-init:
+    image: apache/airflow:2.5.1
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        set -e
+        echo "Initializing Airflow DB..."
+        airflow db init
+        echo "Creating default user..."
+        airflow users create \
+          --username airflow \
+          --password airflow \
+          --firstname Airflow \
+          --lastname User \
+          --role Admin \
+          --email airflow@example.com || true
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW_HOME=/opt/airflow
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  airflow-webserver:
+    image: apache/airflow:2.5.1
+    entrypoint: /opt/airflow/scripts/entrypoint.sh
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./data:/opt/airflow/data
+      - ./features.json:/opt/airflow/features.json
+    ports:
+      - "8080:8080"
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW_HOME=/opt/airflow
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully   # ✅ wait for init
+    restart: always
+
+  airflow-scheduler:
+    image: apache/airflow:2.5.1
+    command: scheduler
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./data:/opt/airflow/data
+      - ./features.json:/opt/airflow/features.json
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW_HOME=/opt/airflow
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully   # ✅ ensures DB ready
+    restart: always
+
+volumes:
+  postgres_data:   # ✅ persist Postgres data

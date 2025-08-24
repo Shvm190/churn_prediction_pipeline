@@ -1,0 +1,50 @@
+version: '3.8'
+services:
+  # Airflow Scheduler
+  airflow-scheduler:
+    image: apache/airflow:2.5.1
+    command: scheduler
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./data:/opt/airflow/data
+      - ./features.json:/opt/airflow/features.json
+    environment:
+      - AIRFLOW_CONN_DB=postgresql://airflow:airflow@postgres/airflow
+    depends_on:
+      - airflow-webserver
+      - postgres
+
+  # Airflow Webserver
+  airflow-webserver:
+    image: apache/airflow:2.5.1
+    entrypoint: ["/usr/bin/dumb-init", "--", "airflow", "webserver"]
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./data:/opt/airflow/data
+      - ./features.json:/opt/airflow/features.json
+    ports:
+      - "8080:8080"
+    environment:
+      - AIRFLOW_CONN_DB=postgresql://airflow:airflow@postgres/airflow
+      - AIRFLOW_HOME=/opt/airflow
+    depends_on:
+      - postgres
+
+  # PostgreSQL Database for Airflow
+  postgres:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+
+  # DVC storage (optional, for remote testing)
+  dvc-storage:
+    image: dvc-storage
+    volumes:
+      - ./dvc_storage:/data
+    ports:
+      - "8000:8000"
+    command: python3 -m http.server 8000
